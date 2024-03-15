@@ -28,6 +28,9 @@ body {
 .flex-item:hover {
     background-color: gray;
 }
+#flexnav span:hover{
+    background-color:  #302e30;
+}
 #flexnav a:visited{
     text-decoration: none;
     color: white;
@@ -77,11 +80,11 @@ body {
     text-align: center;
     line-height: 45px;
 }
-.container1 {
+#container1 {
     display: flex;
     background-color: #340d08;
-    height: 300px;
-    width: 100vw;
+    height: 250px;
+    width: auto;
     align-items: center;
     justify-content: space-between;
 }
@@ -96,12 +99,33 @@ body {
     height: 100%;
 }
 #rtlc2 {
-    width: 400px;
-    height: 170px;
-    margin-bottom: 70px;
+    color:white;
 }
 #rtlc3{
-    color:white;
+    display: flex;
+    background-color: black;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+}
+#rtlc4 {
+    width: 100px;
+}
+#rtlc5 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 90%;
+    margin-left: 5px;
+    flex-grow: 1;
+    flex-direction: column;
+}
+#rtlc6 {
+    color: red;
+}
+.rtlc7 {
+    color: white
 }
 .flex-item1 {
     background-color: #171717;
@@ -117,7 +141,7 @@ body {
 #flexnav1 {
     display: flex;
     height: 60px;
-    background-color: #171717;
+    background-color: #302e30;
     text-align: center;
     color: white;
     justify-content: flex-start;
@@ -170,4 +194,53 @@ body {
 }
 #rtlnav7 {
     margin-top: 20%;
+}
+#rtlc8 {
+    background-color: black;
+    padding-top: 30px;
+}
+#rtlc9 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 40px;
+    background-color: black;
+    color: white;
+}
+#container2 {
+    display: flex;
+    background-color: black;
+    width: auto;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 1;
+}
+.rtlc10 {
+    width: 140px;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 1;
+    border: 3px solid black;
+}
+.rtlc10 a img{
+    width: 70%;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.rtlc10 a:visited{
+    text-decoration: none;
+    color: white;
+}
+.rtlc10 a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.rtlc10 a:hover{
+    text-decoration: none;
 }
