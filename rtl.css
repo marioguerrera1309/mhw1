@@ -244,3 +244,64 @@ body {
 .rtlc10 a:hover{
     text-decoration: none;
 }
+#container3{
+    display: flex;
+    width: auto;
+    height: 550px;
+    background-color: yellow;
+    justify-content: space-between;
+    align-items: stretch;
+}
+#container3 a{
+    text-decoration: none;
+}
+#rtlc11 {
+    width: 35%;
+    height: 100%;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#rtlc12 {
+    color:red;
+    font-size: 25;
+    font-weight: 1000;
+    margin-top: 70px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#rtlc13 {
+    display: block;
+    font-size: 25;
+    font-weight: 1000;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#rtlc13:hover {
+    color:red;
+}
+#rtlc14 {
+    font-size: 25;
+    font-weight: 1000;
+    color: white;
+}
+#rtlc15 {
+    font-size: 25;
+    font-weight: 800;
+    height: 30px;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: block;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+#rtlc16 {
+    height: 80%;
+    width: 100%;
+    
+}
