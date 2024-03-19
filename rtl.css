@@ -4,6 +4,7 @@ body {
     font-weight: bold;
     font-style: normal;
     margin: 0px;
+    background-color: black;
 }
 #flexnav {
     display: flex;
@@ -41,6 +42,10 @@ body {
 }
 #flexnav a:hover{
     text-decoration: none;
+}
+#index {
+    position: relative;
+    z-index: 3;
 }
 #rtlnav {
     background-color: #302e30;
@@ -147,13 +152,22 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin: 0px;
+    width: auto;
 }
-#rtlnav3 {
-    background-color: red;
-    height: 100%;
-    width: 80px;
+#flexnav2 {
+    display: flex;
+    height: 60px;
+    background-color: #302e30;
     text-align: center;
-    line-height: 57px; 
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    z-index: 0;
 }
 #flexnav1 a:visited{
     text-decoration: none;
@@ -165,6 +179,24 @@ body {
 }
 #flexnav1 a:hover{
     text-decoration: none;
+}
+#flexnav2 a:visited{
+    text-decoration: none;
+    color: white;
+}
+#flexnav2 a{
+    text-decoration: none;
+    color: white;
+}
+#flexnav2 a:hover{
+    text-decoration: none;
+}
+#rtlnav3 {
+    background-color: red;
+    height: 100%;
+    width: 80px;
+    text-align: center;
+    line-height: 57px; 
 }
 .rtlnav4 {
     height: 100%;
@@ -270,7 +302,7 @@ body {
     margin-top: 70px;
     display: block;
     margin-bottom: 10px;
-    margin-left: 20px;
+    
 }
 #rtlc13 {
     display: block;
@@ -278,14 +310,14 @@ body {
     font-weight: 1000;
     color: white;
     margin-bottom: 20px;
-    margin-left: 20px;
+    
 }
 #rtlc13:hover {
     color:red;
 }
 #rtlc14 {
-    font-size: 25;
-    font-weight: 1000;
+    font-size: 15;
+    font-weight: 900;
     color: white;
 }
 #rtlc15 {
@@ -293,15 +325,37 @@ body {
     font-weight: 800;
     height: 30px;
     width: 150px;
-    margin-left: 30px;
     margin-top: 50px;
     display: block;
     background-color: red;
     color: white;
     padding: 10px;
 }
-#rtlc16 {
-    height: 80%;
-    width: 100%;
-    
+#container4 {
+    width: auto;
+    margin-top: 50px;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rtlc12 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-end;
+    background-color: black;
+}
+.rtlc12 a{
+    background-image: url("img/stories2/1.jpg");
+    background-size:cover;
+    background-position: center;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+}
+.rtlc12 a:hover {
+    filter: brightness(50%);
 }
