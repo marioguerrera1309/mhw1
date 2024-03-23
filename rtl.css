@@ -403,3 +403,207 @@ body {
 .rtlc20 span {
     color: red;
 }
+#emittenti {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+.container5 {
+    display: flex;
+    width: auto;
+    height: 130px;
+    background-color: black;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container5 a {
+    text-align: center;
+    color: white;
+    width: 40%;
+    line-height: 120px;
+    height: 90%;
+    margin: 10px;
+    background-color: #171717;
+    text-decoration: none;
+    font-size: 20px;
+}
+.container5 a img {
+    position: relative;
+    top: 20px;
+}
+.container5 a:hover {
+    filter: brightness(50%);
+}
+#news {
+    background-image: url(img/news.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#doc {
+    background-image: url(img/doc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#best {
+    background-image: url(img/best.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#napule {
+    background-image: url(img/napule.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#caliente {
+    background-image: url(img/caliente.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bro {
+    background-image: url(img/bro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#linea {
+    width: 100%;
+    height: 5px;
+    background-color: red;
+    margin-top: 100px;
+}
+footer div {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+footer #cookie {
+    height: 100px;
+    justify-content: space-between;
+}
+footer div div {
+    width: 150px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+footer #cookie div {
+    height: 100%;
+    width: 50%;
+    margin: 0px;
+    font-size: 13px;
+    background-color: #9999;
+    align-items: flex-end;
+}
+footer #cookie div p {
+    margin-left:10px;
+}
+footer #cookie div a {
+    font-size: 17px;
+    margin: 10px 20px 0px 0px;
+}
+footer div h5 {
+    margin-top:0px;
+    margin-bottom: 5px;
+}
+footer div a {
+    margin:0px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+footer div a img {
+    width: 17px;
+}
+#contatti {
+    width: 200px;
+}
+@media (max-width: 500px) {
+    footer {
+        flex-direction: column;
+        width: 100vw;
+    }
+    body {
+        font-size: 12px;
+    }
+    #index {
+        display: none;
+    }
+    #container2 {
+        width: 100vw;
+    }
+    #index {
+        display: none;
+    }
+    #flex-item {
+        width: 10%;
+    }
+    #flexnav1 {
+        display: none;
+    }
+    .rtlnav3 {
+        width: 10vw;
+    }
+    .rtlnav4 {
+        width: 10vw;
+    }
+    #rtlc16 {
+        width: 100vw;
+        z-index: 2;
+    }
+    #scomparsa {
+        font-size: 5px;
+        width: 100vw;
+        position: static;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #rtlc8 {
+        display: none;
+    }
+    #container3 #rtlc13{
+        font-size: 10px;
+    }
+    #container3 #rtlc15{
+        font-size: 10px;
+    }
+    #caliente{
+        font-size: 10px;
+    }
+    #news {
+        font-size: 10px;
+    }
+    #doc {
+        font-size: 10px;
+    }
+    #best {
+        font-size: 10px;
+    }
+    #napule {
+        font-size: 10px;
+    }
+    #bro {
+        font-size: 10px;
+    }
+    footer #cookie {
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+    }
+}
